@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Roboto&display=swap');
+body{
+    background-color: rgb(193, 223, 189,1);
+    font-family:Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    /* background-color: #f8f1f1; - цвет фона */
+    /* color: #2954ca; - цвет текста*/
+    margin-bottom: 50px;
+}
+
+.container{
+    margin: auto;
+    padding: 0% 10% 3% 10%;
+    max-width:450px ;  
+}
+
+.info img{
+    border-radius: 6%;
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.5);
+    width: 200px;
+}
+
+.text{
+    font-size: 16px;
+}
+/* .info p { 
+color: aqua;
+} - пример покраски текста, через класс, с изменяющейся переменной "р"*/
+.card1{
+    background-color: #78af8d;
+    border-radius: 20px;
+    padding: 1px 0px 3px 10px ;
+    max-width:450px ;
+    margin-bottom: 20px;
+}
+
+.card2{
+    background-color: rgb(174, 196, 77);
+    border-radius: 20px;
+    padding: 5px 0px 15px 10px;
+    max-width: 450px;
+    border: 10px 100px 100px 100px;
+    margin-bottom: 20px;
+}
+
+.card3{
+    background-color: rgb(130, 214, 172);
+    border-radius: 20px;
+    max-width:450px ;
+    padding: 5px 3px 15px 15px;
+    margin-bottom: 20px;
+    
+}
+
+.feedback{
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 0 0 5px 5px;
+    max-width:450px ;
+    background-color: rgba(106, 173, 134, 0.322) ;
+    margin-bottom: 20px;
+}
+
+.massage{
+    background-color: aliceblue;
+}
+
+.feedback textarea{
+    background-color: rgb(218, 231, 213);
+    border: 2px solid grey;
+}
+
+.feedback  input {
+    background-color: rgb(218, 231, 213);
+    margin-bottom: 5px;
+}
+.feedback label{
+    display: block;
+}
+a{
+    text-decoration: none;
+    transition: all .2s;
+}
+a:hover{
+    color: #000;
+    font-size: 16px;
+}
+a:active{
+    color:blue ;
+}
+.btn{
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+}
+.btn:hover{
+    opacity: 0.8;
+    color: rgb(4, 85, 235);
+}
+.table td:nth-child(2),.table td:nth-child(3) {
+    color: #862d2d;
+}
+.feedback h2{
+    text-align: center;
+}
+.feedback input{
+    width: 237px;
+}
+@media (max-width: 580px) {
+    .container{
+        min-width: 580px ;
+        text-align: center;
+        padding: 20px;
+    }
+    .info{
+        max-width: 450px;
+    }
+}
+        
